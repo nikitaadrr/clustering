@@ -9,8 +9,6 @@ from sklearn.decomposition import PCA
 from sklearn.metrics import silhouette_score
 from PIL import Image
 
-header_image = Image.open('Credit card clustering (1).png')
-st.image(header_image, use_column_width=True)
 
 df = pd.read_csv('CC_clustering.csv')
 

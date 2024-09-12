@@ -59,7 +59,7 @@ def k_means(n_clust):
 
     return fig, X_principal.copy(), kmeans.labels_
 
-st.title("Data Visualization with KMeans Clustering")
+st.title("Clustering Visualization with K MEANS")
 
 # Sidebar with options
 st.sidebar.header("Visualization Options")
